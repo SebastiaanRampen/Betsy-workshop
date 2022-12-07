@@ -134,9 +134,9 @@ def main():
     if not os.path.exists('database.db'):
         populate_test_data()
 
-    results = search('AA')
-    for result in results:
-        print (result.productname)
+    # results = search('AA')
+    # for result in results:
+    #     print (result.productname)
 
     # results = list_user_products('MandyMoes')
     # for result in results:
